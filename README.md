@@ -15,7 +15,7 @@ Identify position of introgression in material based on GBS sequencing data from
 
 Map GBS sequencing reads to a reference genome. At time this analysis was done, large chromosomes could not be directly processed. They needed to be split into parts. The scripts in this repository expect a BED file detailing the split positions.
 
-We used [bwa](http://bio-bwa.sourceforge.net/) for mapping and processed mappigns with [samtools] (http://www.htslib.org/).
+We used [bwa](http://bio-bwa.sourceforge.net/) for mapping and processed mappings with [samtools] (http://www.htslib.org/).
 
 Process every individual gbs data set (including donor, introgression lines and background) as below.
 
