@@ -40,7 +40,7 @@ Executing the scripts requires [jre 1.6 or higher](https://www.oracle.com/uk/jav
 java -jar GBSSNPs.jar -b <background.pileup> -d <donor.pileup> -i <introgression.pileup> -o <output1.txt> -p <parts2chrs.bed> -l <interval_length>
 ```
 
-An example for the parts2chrs.bed file is [here](). For our analysis, we used an interval_length of 1000000 (1 mega-base). 
+An example for the parts2chrs.bed file is [here](https://github.com/steuernb/GBS_introgression_line_analysis/blob/main/161010_Chinese_Spring_v1.0_pseudomolecules_parts_to_chr.bed). For our analysis, we used an interval_length of 1000000 (1 mega-base). 
 
 
 ### 3. Plot output
