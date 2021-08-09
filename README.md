@@ -65,7 +65,11 @@ par(mfrow=c(7,3) ,mar = c(3, 4, 4, 2) + 0.1, mgp = c(2,1,0))
 x<- file$V2
 y<- (file$V4)*100/(file$V3+0.0000001)
 for( i in chrs){
-  plot(x[file$V1==i],y[file$V1==i]   , type = "h", xlab = i,  ylab ="", ylim = c(0, max(y)), xlim = c(0, lengths$V2[lengths$V1==i]) )
+  plot(    x[file$V1==i],y[file$V1==i],
+              type = "h", xlab = i,  ylab ="", 
+              ylim = c(0, max(y)), 
+              xlim = c(0,lengths$V2[lengths$V1==i])
+      )
 }
 
 ```
