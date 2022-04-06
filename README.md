@@ -2,7 +2,8 @@
 
 This repository contains source code for analysis of introgression lines. 
 
-This is in context of a soon to be submitted manuscript (todo: update when paper is online)
+This is in context of the manuscript by Yu et al.: *Aegilops sharonensis* genome-assisted identification of stem rust resistance gene Sr62. 
+Nat Commun. 2022 Mar 25;13(1):1607. [https://doi.org/10.1038/s41467-022-29132-8](https://www.nature.com/articles/s41467-022-29132-8)
 
 
 ## Context
